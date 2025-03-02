@@ -81,9 +81,11 @@ button:hover {
 
 .productos {
     display: flex;
+    justify-content: center;
     flex-direction: column; /* Cambia a columna en móviles */
     align-items: center;
     gap: 20px;
+    padding: 40px;
     padding: 20px;
 }
 
@@ -125,6 +127,7 @@ button:hover {
 
 .articulo {
     display: flex;
+    justify-content: center;
     flex-direction: column; /* Cambia a columna en móviles */
     align-items: center;
     padding: 20px;
